@@ -1,0 +1,15 @@
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+
+logging:
+  level:
+    root: INFO
+    com.netflix.discovery: DEBUG
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://172.22.0.6:8748/eureka/
