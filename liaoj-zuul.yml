@@ -12,7 +12,7 @@ logging:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://172.22.0.6:8748/eureka/
+      defaultZone: http://172.22.0.5:8748/eureka/
       
 zuul:
   routes:
