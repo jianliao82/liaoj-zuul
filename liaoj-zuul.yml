@@ -25,3 +25,8 @@ zuul:
 ribbon:
   eureka:
     enabled: true
+    
+spring:
+  sleuth:
+    sampler:
+      percentage: 1.0
